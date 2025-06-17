@@ -2,11 +2,11 @@ import joblib
 import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
 
-# Download VADER lexicon
+
 nltk.download("vader_lexicon")
 sia = SentimentIntensityAnalyzer()
 
-# Load trained ML model
+
 model = joblib.load("sentiment_model.pkl")
 
 def analyze_sentiment(review):
@@ -19,7 +19,7 @@ def analyze_sentiment(review):
     Returns:
         dict: Sentiment analysis results from both models.
     """
-    # VADER Analysis
+  
     vader_score = sia.polarity_scores(review)["compound"]
     vader_sentiment = (
         "Positive" if vader_score > 0.05 else
@@ -27,7 +27,7 @@ def analyze_sentiment(review):
         "Neutral"
     )
 
-    # ML Model Prediction
+   
     ml_sentiment = model.predict([review])[0]
 
     return {

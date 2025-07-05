@@ -1,21 +1,22 @@
 # Amazon-Review-Scrapping
 
-📦 Amazon Product Review Scraper & Sentiment Analysis
+ Amazon Product Review Scraper & Sentiment Analysis
 
-📝 Project Overview
+ Project Overview
+ 
 This project is a Python-based Streamlit application that allows users to scrape product reviews from any Amazon product page and perform sentiment analysis on those reviews using a custom-trained machine learning model (model.p). The model classifies each review as positive or negative, providing valuable insights into customer opinions.
 
-🎯 Objectives
+ Objectives
 
-✔️ Automate the collection of real user reviews from Amazon product pages.
+* Automate the collection of real user reviews from Amazon product pages.
 
-✔️ Preprocess and clean review data for analysis.
+* Preprocess and clean review data for analysis.
 
-✔️ Use a machine learning model to analyze sentiment (positive/negative).
+* Use a machine learning model to analyze sentiment (positive/negative).
 
-✔️ Display results interactively using Streamlit.
+* Display results interactively using Streamlit.
 
-🛠️ Technologies Used:
+ Technologies Used:
 
 Component                Technology
 
@@ -25,10 +26,10 @@ ML Model	               scikit-learn
 Model Serialization	     pickle
 Programming Language	   Python 3.x
 
-📁 Project Structure
+ Project Structure
 
 amazon_sentiment_analysis/
-│
+
 ├── app.py              
 ├── scraper.py          
 ├── sentiment.py        
@@ -36,7 +37,7 @@ amazon_sentiment_analysis/
 ├── requirements.txt    
 └── README.md        
 
-💻 Installation Instructions
+Installation Instructions
 
 1. Clone the Repository
 

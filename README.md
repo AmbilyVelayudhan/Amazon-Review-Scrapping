@@ -16,16 +16,6 @@ This project is a Python-based Streamlit application that allows users to scrape
 
 * Display results interactively using Streamlit.
 
- Technologies Used:
-
-Component                             Technology
-
-Interface	                            Streamlit
-Web Scraping	                         BeautifulSoup + requests
-ML Model	                             scikit-learn
-Model Serialization	                  pickle
-Programming Language	                 Python 3.x
-
  Project Structure
 
 amazon_sentiment_analysis/
